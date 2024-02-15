@@ -101,12 +101,12 @@ const publicRoutes = [
     pageTitle: "HowItWorks",
   },
   {
-    path: "/mikoartists",
+    path: "/artists",
     Component: lazy(() => import("../Pages/MikoArtists.jsx")),
     pageTitle: "MikoArtists",
   },
   {
-    path: "/mikoFeaturedArtists",
+    path: "/featuredArtists",
     Component: lazy(() => import("../Pages/MikoFeaturedArtistis.jsx")),
     pageTitle: "mikoFeaturedArtists",
   },
